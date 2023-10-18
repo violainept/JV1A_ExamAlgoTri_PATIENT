@@ -1,0 +1,10 @@
+Le tri a bulle est considéré comme très lent pour les raisons suivantes :
+
+Si on reprend l'exercice n°3, on a créé un tableau nommé 'myTable' avec des valeurs entrées.
+On utilise ensuite deux boucles nommées i et j allant de 0 à la taille du tableau - 1  avec un pas de 1.
+Lorsque la boucle i commence, la boucle j présente dedans va démarrer aussi. Cependant, au contraire de i, j va finir l'ensemble de ces 'tours' (j+1) avant que i ne passe à la seconde boucle.
+Ce qui va être présent dans la boucle j va ensuite se répéter pour la deuxième boucle de i, puis la troisième ... jusqu'à arriver à la taille du tableau - 1.
+
+C'est donc un processus long pour l'ordinateur qui va devoir d'abord décrypter les données saisies sur plusieurs lignes de code et devoir aussi répéter encore et encore la même action de la deuxième boucle saisies jusqu'à terminer la boucle principale.
+
+On pourrait sans doute économiser d'avantage de temps et obtenir le même résultat en quelques lignes seulement à l'aide d'autres fonctions (comme variable.pop(p) ou variable.insert (p,e)), ce qui permettrait un programme donc moins lourd et plus rapide.
